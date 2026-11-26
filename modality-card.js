@@ -162,12 +162,9 @@
 .mc-step h3{display:flex;align-items:center;gap:10px;font-family:var(--display,Georgia,serif);font-size:20px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--mc-ink)}
 .mc-n{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--mc-tint);color:var(--mc-ink);font-family:var(--body,system-ui,sans-serif);font-size:13px;font-weight:700;flex:none}
 .mc-find{margin:0;padding-left:18px;display:grid;gap:5px}
-/* Reach out if: a soft warm tint and a small icon, caring rather than alarming */
-.mc,.mc-crisis{--mc-warm:var(--care,#EEC5A3)}
-.mc-reach{background:color-mix(in srgb, var(--mc-warm) 24%, var(--mc-surface));border-color:color-mix(in srgb, var(--mc-warm) 60%, var(--mc-line))}
-.mc-reach .mc-n{background:color-mix(in srgb, var(--mc-warm) 75%, var(--mc-surface))}
-.mc-reach-ic{margin-left:auto;width:28px;height:28px;flex:none;color:color-mix(in srgb, #C27257 72%, var(--mc-ink,#2E3A2B))}
-.mc-crisis{margin:0;font-size:14.5px;line-height:1.5;border-top:1px dashed color-mix(in srgb, var(--mc-warm) 75%, var(--mc-line,#DEDACB));padding-top:8px;margin-top:2px}
+/* Reach out if: the same box as the other steps, with a small icon and the general line under a dotted rule */
+.mc-reach-ic{margin-left:auto;width:28px;height:28px;flex:none;color:var(--mc-muted,#5C6655)}
+.mc-crisis{margin:0;font-size:14.5px;line-height:1.5;border-top:1px dashed var(--mc-line,#DEDACB);padding-top:8px;margin-top:2px}
 .mc-crisis a{font-weight:700;color:inherit;text-underline-offset:2px}
 .mc a{color:var(--mc-ink);text-underline-offset:2px;overflow-wrap:anywhere}
 .mc-flag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mc-muted);border:1px dashed var(--mc-muted);border-radius:5px;padding:0 5px;margin-left:4px;line-height:1.6;vertical-align:1px}

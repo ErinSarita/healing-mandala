@@ -30,7 +30,7 @@ The build checks that every type and evidence level is one it knows and reports 
 
 **Type descriptions.** Hovering over a type on the outer band shows what that type means. The descriptions live in `data/types.csv` (columns "Type" and "Description"). A tab named "Types" with the same columns in the spreadsheet takes their place if you add one. Rebuild after editing either.
 
-**Reach out if.** Each card's third step shows the sheet's "Reach out if" text in a soft warm box, followed by one general line that also appears in the About section: "Thoughts of self-harm, severe depression, or a medical emergency: call or text 988, or call 911." That line is set as `CRISIS` in `modality-card.js`.
+**Reach out if.** Each card's third step shows the sheet's "Reach out if" text, followed by one general line that also appears in the About section: "Thoughts of self-harm, severe depression, or a medical emergency: call or text 988, or call 911." That line is set as `CRISIS` in `modality-card.js`.
 
 ## Files
 
