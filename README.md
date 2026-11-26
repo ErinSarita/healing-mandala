@@ -20,8 +20,8 @@ Filters under the wheel find modalities by who they are for, type, when they fit
 
 The spreadsheet is the source of truth. Its text is never retyped in the code.
 
-1. Export the spreadsheet as `.xlsx` (or the Modalities tab as `.csv`) and save it in `data/`.
-2. Run `python3 build.py`, or `python3 build.py "data/your file.xlsx"` for another file name.
+1. Export the Modalities tab as `.csv` and save it as `data/modalities.csv` (an `.xlsx` works too).
+2. Run `python3 build.py`, or `python3 build.py "data/your file.csv"` for another file name.
 3. That writes `modalities.json` and `modalities.js`. The page loads `modalities.js`.
 
 The build checks that every type and evidence level is one it knows and reports anything it could not place.
@@ -30,7 +30,7 @@ The build checks that every type and evidence level is one it knows and reports 
 
 **Type descriptions.** Hovering over a type on the outer band shows what that type means. The descriptions live in `data/types.csv` (columns "Type" and "Description"). A tab named "Types" with the same columns in the spreadsheet takes their place if you add one. Rebuild after editing either.
 
-**Reach out if.** The spreadsheet has no "Reach out if" column yet, so each card shows a marked placeholder. Add a column with that exact name and rebuild to fill it in.
+**Reach out if.** Each card's third step shows the sheet's "Reach out if" text in a soft warm box, followed by one general line that also appears in the About section: "Thoughts of self-harm, severe depression, or a medical emergency: call or text 988, or call 911." That line is set as `CRISIS` in `modality-card.js`.
 
 ## Files
 

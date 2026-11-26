@@ -71,6 +71,15 @@
   const para = t => t ? `<p>${esc(t)}</p>` : "";
   const placeholder = what => `<p class="mc-todo"><span class="mc-flag">Placeholder</span> ${what}</p>`;
 
+  // The one general line that closes every "Reach out if" section (and the host page may show it elsewhere).
+  const CRISIS = "Thoughts of self-harm, severe depression, or a medical emergency: call or text 988, or call 911.";
+  function crisisLine(){
+    const html = esc(CRISIS).replace("text 988", `text <a href="tel:988">988</a>`).replace("call 911", `call <a href="tel:911">911</a>`);
+    return `<p class="mc-crisis">${html}</p>`;
+  }
+  // a heart held in an open hand
+  const CARE_ICON = `<svg class="mc-reach-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 11C9.5 9.2 8 7.9 8 6.3 8 5.1 8.9 4.2 10 4.2c.9 0 1.6.5 2 1.2.4-.7 1.1-1.2 2-1.2 1.1 0 2 .9 2 2.1 0 1.6-1.5 2.9-4 4.7z" fill="currentColor" fill-opacity=".22"/><path d="M3 14h3l3 1h3.2a1.5 1.5 0 0 1 0 3H9"/><path d="M12.2 18l4.6-1.8 2.7-1.4a1.4 1.4 0 0 1 1.5 2.3l-5.6 3.3a3 3 0 0 1-2.3.4L6 19.5H3"/></svg>`;
+
   function render(m, data){
     const k = typeKey(m.type);
     const stages = (data && data.stages) || m.stages.map(s => s.stage);
@@ -102,7 +111,7 @@
       ${m.practitioner ? `<h4>Who can practice it</h4>${para(m.practitioner)}` : ""}
       ${find ? `<h4>Find a practitioner</h4>${find}` : ""}
     </section>
-    <section class="mc-step"><h3><span class="mc-n">3</span>Reach out if</h3>${m.reachOut ? para(m.reachOut) : placeholder("Signs that it is time for a trained or licensed practitioner. Add a “Reach out if” column to the spreadsheet to fill this in.")}</section>
+    <section class="mc-step mc-reach"><h3><span class="mc-n">3</span>Reach out if${CARE_ICON}</h3>${m.reachOut ? para(m.reachOut) : placeholder("“Reach out if” is not filled in for this modality yet.")}${crisisLine()}</section>
   </div>
   <div class="mc-roots">
     ${section("Founder or key figures", para(m.founder))}
@@ -153,6 +162,13 @@
 .mc-step h3{display:flex;align-items:center;gap:10px;font-family:var(--display,Georgia,serif);font-size:20px;font-weight:400;letter-spacing:0;text-transform:none;color:var(--mc-ink)}
 .mc-n{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--mc-tint);color:var(--mc-ink);font-family:var(--body,system-ui,sans-serif);font-size:13px;font-weight:700;flex:none}
 .mc-find{margin:0;padding-left:18px;display:grid;gap:5px}
+/* Reach out if: a soft warm tint and a small icon, caring rather than alarming */
+.mc,.mc-crisis{--mc-warm:var(--care,#EEC5A3)}
+.mc-reach{background:color-mix(in srgb, var(--mc-warm) 24%, var(--mc-surface));border-color:color-mix(in srgb, var(--mc-warm) 60%, var(--mc-line))}
+.mc-reach .mc-n{background:color-mix(in srgb, var(--mc-warm) 75%, var(--mc-surface))}
+.mc-reach-ic{margin-left:auto;width:28px;height:28px;flex:none;color:color-mix(in srgb, #C27257 72%, var(--mc-ink,#2E3A2B))}
+.mc-crisis{margin:0;font-size:14.5px;line-height:1.5;border-top:1px dashed color-mix(in srgb, var(--mc-warm) 75%, var(--mc-line,#DEDACB));padding-top:8px;margin-top:2px}
+.mc-crisis a{font-weight:700;color:inherit;text-underline-offset:2px}
 .mc a{color:var(--mc-ink);text-underline-offset:2px;overflow-wrap:anywhere}
 .mc-flag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mc-muted);border:1px dashed var(--mc-muted);border-radius:5px;padding:0 5px;margin-left:4px;line-height:1.6;vertical-align:1px}
 .mc-todo{color:var(--mc-muted);font-size:14.5px;border:1px dashed var(--mc-line);border-radius:10px;padding:8px 10px}
@@ -167,5 +183,5 @@
   }
   if (typeof document !== "undefined") injectCSS();
 
-  window.ModalityCard = {render, evidenceBadge, typeKey, esc, linked};
+  window.ModalityCard = {render, evidenceBadge, typeKey, esc, linked, crisisLine, CRISIS, CARE_ICON};
 })();

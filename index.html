@@ -155,6 +155,9 @@ svg.filtering .wedge.off{opacity:.2}
 .typelist li{display:inline-flex;align-items:center;gap:6px}
 .typelist .sw{width:12px;height:12px;border-radius:50%}
 .typelist .tdesc{color:var(--muted)}
+.care-note{display:flex;gap:10px;align-items:center;background:color-mix(in srgb, #EEC5A3 24%, var(--surface));border:1px solid color-mix(in srgb, #EEC5A3 60%, var(--line));border-radius:12px;padding:10px 14px;margin:4px 0 8px}
+.care-note .mc-crisis{border:0;padding:0;margin:0;font-size:15px}
+.care-note .mc-reach-ic{margin:0}
 .typelist:has(.tdesc){flex-direction:column;gap:6px}
 .typelist:has(.tdesc) li{display:block}
 .typelist:has(.tdesc) .sw{display:inline-block;margin-right:6px;vertical-align:-1px}
@@ -231,6 +234,7 @@ try{ var t=localStorage.getItem("hm-theme"); if(t==="light"||t==="dark") documen
       <li><a href="https://birthpsychology.com/" target="_blank" rel="noopener">APPPAH Practitioner Directory</a> (birthpsychology.com)</li>
       <li><a href="https://postpartum.net/get-help/provider-directory/" target="_blank" rel="noopener">Postpartum Support International provider directory</a> (postpartum.net)</li>
     </ul>
+    <div class="care-note" id="care-note"></div>
     <p>Links marked <span class="mc-flag" style="margin:0">not verified</span> or <span class="mc-flag" style="margin:0">from module notes</span> come from the course materials and have not yet been checked.</p>
     <h3>How it was made</h3>
     <p>Every card comes from one reference spreadsheet, built from the Module 12 readings and videos. The evidence levels are kept as they appear there: research-based, some research, case reports, and practice-based.</p>
@@ -322,6 +326,9 @@ function showTip(x,y,html,color){
   tip.style.left=Math.min(Math.max(px,tw/2+4),bw-tw/2-4)+"px"; tip.style.top=((y+VB)/(2*VB)*100)+"%";
   tip.classList.add("on");
 }
+
+// the general "reach out" line in the About section, the same words as on every card
+document.getElementById("care-note").innerHTML=ModalityCard.CARE_ICON+ModalityCard.crisisLine();
 
 /* ---------- Filters ---------- */
 const FILTERS=[

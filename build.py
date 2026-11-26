@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turn the modalities spreadsheet into the data the mandala loads.
 
-    python3 build.py                      # reads data/PPN Healing Modalities Reference.xlsx
+    python3 build.py                      # reads data/modalities.csv
     python3 build.py path/to/sheet.xlsx   # or another .xlsx
     python3 build.py path/to/sheet.csv    # or a CSV export of the Modalities tab
 
@@ -17,7 +17,7 @@ import csv, json, re, sys, zipfile, xml.etree.ElementTree as ET
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-DEFAULT = HERE / "data" / "PPN Healing Modalities Reference.xlsx"
+DEFAULT = HERE / "data" / "modalities.csv"
 TYPES_CSV = HERE / "data" / "types.csv"
 
 STAGES = ["Preconception", "Pregnancy", "Birth", "Fourth trimester", "Early childhood", "Adulthood"]
@@ -53,7 +53,7 @@ FIELDS = {   # spreadsheet column -> key in the data
     "Questions a family might ask": "questions",
     "How to offer it": "offer",
     "Be careful about": "careful",
-    "Reach out if": "reachOut",          # not in the sheet yet; the card shows a placeholder until it is
+    "Reach out if": "reachOut",
     "Evidence level": "evidence",
     "Founder or key figures": "founder",
     "Origin": "origin",
