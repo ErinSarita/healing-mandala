@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Healing Modalities Mandala</title>
+<meta name="description" content="A teaching map of the healing modalities in Module 12, Resolving and Healing: what each one is, who it serves, when in life it fits, what a person can explore on their own, and when to refer to a trained practitioner.">
+<link rel="icon" href="favicon.svg?v=1" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/* Layout: the mandala holds the left (sticky on wide screens); the reading panel sits to the right. Center-out order everywhere. */
+:root{
+  --bg:#F5F3EC; --surface:#FFFFFF; --ink:#2E3A2B; --muted:#5C6655; --line:#DEDACB;
+  --center:#B9C9A0; --seed:#FAFAF3; --gold:#A9822F; --empty:#EEECE3;
+  --t-somatic:#6E8B57; --t-somatic-tint:#CFDDBE;
+  --t-relational:#7A8A45; --t-relational-tint:#E0E6C4;
+  --t-sound:#4F8574; --t-sound-tint:#C6DDD4;
+  --t-contemplative:#8E7C52; --t-contemplative-tint:#E9E0CB;
+  --t-energetic:#A87535; --t-energetic-tint:#F0DCC0;
+  --t-hypnotic:#94705A; --t-hypnotic-tint:#E2D2C4;
+  --t-cognitive:#767B66; --t-cognitive-tint:#D8D9CC;
+  /* the petals and the type band; in dark mode they stay light, with dark text */
+  --p-somatic:var(--t-somatic-tint); --p-relational:var(--t-relational-tint); --p-sound:var(--t-sound-tint); --p-contemplative:var(--t-contemplative-tint); --p-energetic:var(--t-energetic-tint); --p-hypnotic:var(--t-hypnotic-tint); --p-cognitive:var(--t-cognitive-tint); --petal-ink:var(--ink);
+  --s-self:#9DB585; --s-edu:#C9B48A; --s-prac:#A98A73;
+  /* when it fits: one shade per stage, a soft rainbow with a touch of warm neutral, rose at preconception to lavender at adulthood,
+     the same in both themes; -ink is the text on it
+     (the peach to terracotta set, for going back: #F4CFBB #E8BCA6 #DDA991 #D1967E #C6836B #BA7059) */
+  --when-0:#EFB9B4; --when-0-ink:#2B211F; --when-1:#EEC5A3; --when-1-ink:#2B211F; --when-2:#E7D9A1; --when-2-ink:#2B211F; --when-3:#B8D9B2; --when-3-ink:#2B211F; --when-4:#ABCEE2; --when-4-ink:#2B211F; --when-5:#CBBBDF; --when-5-ink:#2B211F;
+  --display:"Marcellus", "Cormorant Garamond", Georgia, serif;
+  --body:"Mulish", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1B201A; --surface:#242A22; --ink:#ECEDE3; --muted:#B2B9A6; --line:#394136;
+  --center:#6E8159; --seed:#EEF2E4; --gold:#D9B565; --empty:#2C332A;
+  --t-somatic:#A9C391; --t-somatic-tint:#4E693E;
+  --t-relational:#C3CF8F; --t-relational-tint:#5A662E;
+  --t-sound:#8DC2B0; --t-sound-tint:#376B5C;
+  --t-contemplative:#D6C7A0; --t-contemplative-tint:#6B6041;
+  --t-energetic:#E5B77E; --t-energetic-tint:#7C5A34;
+  --t-hypnotic:#CFA78D; --t-hypnotic-tint:#775C49;
+  --t-cognitive:#B7BBA6; --t-cognitive-tint:#5E6354;
+  --p-somatic:#BED99A; --p-relational:#D5E09A; --p-sound:#AAD9C8; --p-contemplative:#E7D5AB; --p-energetic:#F6CE95; --p-hypnotic:#E4C5A9; --p-cognitive:#CFD1B0; --petal-ink:#2E3A2B;
+  --when-0:#EFB9B4; --when-0-ink:#2B211F; --when-1:#EEC5A3; --when-1-ink:#2B211F; --when-2:#E7D9A1; --when-2-ink:#2B211F; --when-3:#B8D9B2; --when-3-ink:#2B211F; --when-4:#ABCEE2; --when-4-ink:#2B211F; --when-5:#CBBBDF; --when-5-ink:#2B211F;
+  --s-self:#8FAE77; --s-edu:#C8B07E; --s-prac:#B08F76; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#1B201A; --surface:#242A22; --ink:#ECEDE3; --muted:#B2B9A6; --line:#394136;
+  --center:#6E8159; --seed:#EEF2E4; --gold:#D9B565; --empty:#2C332A;
+  --t-somatic:#A9C391; --t-somatic-tint:#4E693E;
+  --t-relational:#C3CF8F; --t-relational-tint:#5A662E;
+  --t-sound:#8DC2B0; --t-sound-tint:#376B5C;
+  --t-contemplative:#D6C7A0; --t-contemplative-tint:#6B6041;
+  --t-energetic:#E5B77E; --t-energetic-tint:#7C5A34;
+  --t-hypnotic:#CFA78D; --t-hypnotic-tint:#775C49;
+  --t-cognitive:#B7BBA6; --t-cognitive-tint:#5E6354;
+  --p-somatic:#BED99A; --p-relational:#D5E09A; --p-sound:#AAD9C8; --p-contemplative:#E7D5AB; --p-energetic:#F6CE95; --p-hypnotic:#E4C5A9; --p-cognitive:#CFD1B0; --petal-ink:#2E3A2B;
+  --when-0:#EFB9B4; --when-0-ink:#2B211F; --when-1:#EEC5A3; --when-1-ink:#2B211F; --when-2:#E7D9A1; --when-2-ink:#2B211F; --when-3:#B8D9B2; --when-3-ink:#2B211F; --when-4:#ABCEE2; --when-4-ink:#2B211F; --when-5:#CBBBDF; --when-5-ink:#2B211F;
+  --s-self:#8FAE77; --s-edu:#C8B07E; --s-prac:#B08F76; color-scheme:dark }
+:root[data-theme="light"]{color-scheme:light}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;margin:0}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+header.top{display:grid;gap:6px;margin-bottom:22px;position:relative;padding-right:52px}
+.themebtn{position:absolute;top:-4px;right:0;width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line);border-radius:50%;background:var(--surface);color:var(--ink);cursor:pointer;padding:0}
+.themebtn:hover{background:var(--bg)}
+.themebtn svg{width:20px;height:20px;overflow:visible}
+.themebtn .sun{display:none}
+.is-dark .themebtn .moon{display:none}
+.is-dark .themebtn .sun{display:block}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(34px,5vw,54px);line-height:1.05;margin:0;text-wrap:balance}
+.lede{max-width:64ch;color:var(--muted);margin:4px 0 0}
+.lede a{color:var(--ink)}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+.main{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:32px;align-items:start}
+@media (max-width:900px){.main{grid-template-columns:1fr}}
+.stage{position:sticky;top:12px;display:grid;gap:14px;max-height:calc(100vh - 24px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:4px 6px 12px 2px}
+@media (max-width:900px){.stage{position:static;max-height:none;overflow:visible;padding:0}}
+.svgbox{width:100%;max-width:760px;margin:0 auto;aspect-ratio:1/1;position:relative}
+svg#m{width:100%;height:100%;display:block;overflow:visible}
+
+/* tooltips */
+.tip{position:absolute;left:0;top:0;z-index:2;width:max-content;max-width:min(300px,80%);background:var(--surface);color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--tipc,var(--center));border-radius:12px;padding:8px 12px;font-size:13.5px;line-height:1.4;text-align:center;box-shadow:0 6px 20px color-mix(in srgb, var(--ink) 16%, transparent);pointer-events:none;opacity:0;transition:opacity .15s ease;transform:translate(-50%,calc(-100% - 12px))}
+.tip.on{opacity:1}
+.tip b{font-family:var(--display);font-weight:400;font-size:16px;display:block}
+.tip span{color:var(--muted);font-size:12.5px;display:block;margin-top:4px}
+.tip em{font-style:normal;font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:block}
+.coretip{position:absolute;left:50%;top:50%;transform:translate(-50%,calc(-100% - 8%));width:min(250px,70%);background:color-mix(in srgb, var(--center) 18%, var(--surface));color:var(--ink);border:1px solid var(--line);border-top:5px solid var(--center);border-radius:12px;padding:10px 12px;font-size:13.5px;line-height:1.45;text-align:center;box-shadow:0 6px 20px color-mix(in srgb, var(--ink) 16%, transparent);pointer-events:none;opacity:0;transition:opacity .2s ease}
+.coretip.on{opacity:1}
+.coretip b{font-family:var(--display);font-weight:400;font-size:16px;display:block;margin-bottom:2px}
+
+/* the wheel */
+.wedge{cursor:pointer;transition:opacity .25s ease}
+.wedge:focus{outline:none}
+.petal{stroke:var(--bg);stroke-width:2.5;transition:fill .15s ease}
+.wedge:hover .petal,.wedge:focus-visible .petal{fill:color-mix(in srgb, var(--wc) 32%, var(--wt))}
+/* in dark mode the petals are already light, so hovering brightens them instead of deepening them */
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .wedge:hover .petal,:root:not([data-theme="light"]) .wedge:focus-visible .petal{fill:color-mix(in srgb, #FFFFFF 45%, var(--wt))} }
+:root[data-theme="dark"] .wedge:hover .petal,:root[data-theme="dark"] .wedge:focus-visible .petal{fill:color-mix(in srgb, #FFFFFF 45%, var(--wt))}
+.wedge:focus-visible .petal{stroke:var(--ink);stroke-width:3}
+.wedge.sel .petal{stroke:var(--gold);stroke-width:4}
+.wname{font-family:var(--display);fill:var(--petal-ink);pointer-events:none}
+.st{stroke:var(--bg);stroke-width:1.6}
+.st.on{fill:var(--sc)}
+.st.off{fill:var(--empty)}
+svg.filtering .wedge.off{opacity:.2}
+.stlbl{fill:var(--ink);font-family:var(--body);font-weight:700;pointer-events:none}
+.stlbl.on{fill:var(--lbl)}   /* the text color that reads on that stage's shade */
+.tband{cursor:pointer;stroke:var(--bg);stroke-width:2}
+.tband:focus{outline:none}
+.tband:focus-visible,.tband:hover{stroke:var(--ink)}
+.tlbl{fill:var(--petal-ink);font-family:var(--body);font-weight:700;letter-spacing:.16em;pointer-events:none}
+.braidhit{fill:transparent;cursor:pointer}
+.braidhit:focus{outline:none}
+.core{cursor:pointer}
+.core:focus{outline:none}
+.core:focus-visible circle.disc{stroke:var(--ink);stroke-width:3}
+
+/* filters */
+.filters{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:grid;gap:10px;max-width:680px;margin:0 auto;width:100%}
+.fgroup{display:grid;grid-template-columns:118px 1fr;gap:8px;align-items:start;border:0;margin:0;padding:0;min-width:0}
+.fgroup legend{float:left;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding-top:5px}
+@media (max-width:520px){.fgroup{grid-template-columns:1fr;gap:4px}}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:13.5px;font-weight:600;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:4px 12px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+.chip:hover{border-color:var(--muted)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .sw{width:12px;height:12px;border-radius:50%;flex:none;box-shadow:0 0 0 1px color-mix(in srgb, var(--ink) 22%, transparent)}
+.chip .mc-ev{border:0;padding:0;background:transparent;color:inherit}
+.chip[aria-pressed="true"] .mc-pips i{background:color-mix(in srgb, var(--bg) 35%, transparent)}
+.chip[aria-pressed="true"] .mc-pips i.on{background:var(--bg)}
+.fstatus{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:8px;font-size:14px;color:var(--muted)}
+.fstatus b{color:var(--ink)}
+.btn{font:inherit;font-size:14px;font-weight:600;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:999px;padding:5px 14px;cursor:pointer}
+.btn:hover{background:var(--bg)}
+
+/* panel */
+.panel{display:grid;gap:18px;min-width:0}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tab{font:inherit;font-size:14px;font-weight:600;padding:7px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.intro{display:grid;gap:14px}
+.intro h2{font-family:var(--display);font-weight:400;font-size:30px;margin:0;line-height:1.15}
+.intro p{margin:0;max-width:62ch}
+.legend{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+.legend li{display:grid;grid-template-columns:22px 1fr;gap:12px;align-items:start}
+.legend .sw{margin-top:4px;width:22px;height:22px;border-radius:50%}
+.legend b{font-family:var(--display);font-weight:400;font-size:19px;display:block}
+.legend p{color:var(--muted);font-size:15px}
+.typelist{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0;padding:0;list-style:none;font-size:14px}
+.typelist li{display:inline-flex;align-items:center;gap:6px}
+.typelist .sw{width:12px;height:12px;border-radius:50%}
+.typelist .tdesc{color:var(--muted)}
+.typelist:has(.tdesc){flex-direction:column;gap:6px}
+.typelist:has(.tdesc) li{display:block}
+.typelist:has(.tdesc) .sw{display:inline-block;margin-right:6px;vertical-align:-1px}
+.group{display:grid;gap:8px}
+.group h3{font-family:var(--display);font-weight:400;font-size:22px;margin:8px 0 0;display:flex;align-items:center;gap:10px}
+.group h3 .sw{width:14px;height:14px;border-radius:50%}
+.mlist{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.mlist button{font:inherit;width:100%;text-align:left;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:6px 12px;border:1px solid var(--line);border-left:5px solid var(--wc);background:var(--surface);color:var(--ink);border-radius:10px;padding:9px 12px;cursor:pointer}
+.mlist button:hover{border-color:var(--muted);border-left-color:var(--wc)}
+.mlist button span.nm{font-family:var(--display);font-size:17px}
+.mlist li.off button{opacity:.45}
+.rnext{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.center-msg{display:grid;gap:12px}
+.center-msg h2{font-family:var(--display);font-weight:400;font-size:30px;margin:0;line-height:1.15}
+.center-msg p{margin:0;max-width:62ch}
+
+section.about{margin-top:56px;display:grid;gap:18px;max-width:880px}
+section.about h2{font-family:var(--display);font-weight:400;font-size:30px;margin:0}
+section.about h3{font-family:var(--display);font-weight:400;font-size:21px;margin:8px 0 0}
+section.about p{margin:0;max-width:68ch}
+section.about a{color:var(--ink)}
+.dirs{margin:0;padding-left:20px;display:grid;gap:6px}
+.refs{margin:0;padding-left:20px;display:grid;gap:8px;font-size:14.5px}
+.refs .cited{display:block;font-size:13px;color:var(--muted)}
+.refs .cited button{font:inherit;color:inherit;background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.foot{font-size:13px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px;margin-top:10px}
+.loaderr{background:var(--surface);border:1px dashed var(--muted);border-radius:12px;padding:14px}
+@media (prefers-reduced-motion: reduce){.wedge,.petal,.tip,.coretip{transition:none}}
+</style>
+<script>
+try{ var t=localStorage.getItem("hm-theme"); if(t==="light"||t==="dark") document.documentElement.setAttribute("data-theme",t); }catch(e){}
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <button class="themebtn" type="button" id="themebtn" aria-label="Switch to dark mode">
+      <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg>
+      <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+    <div class="eyebrow">Prenatal &amp; Perinatal Healing</div>
+    <h1>The Healing Modalities Mandala</h1>
+    <p class="lede">A teaching map of the healing modalities in Module 12, Resolving and Healing. Each petal is one modality, colored by its type. The thin rings around the petals show when in life it fits, from preconception to adulthood. Tap a petal to read what it is, who it serves, what a family can explore on their own, and when to refer to a trained practitioner.</p>
+  </header>
+
+  <div class="main">
+    <div class="stage">
+      <div class="svgbox">
+        <div class="tip" id="tip" role="status"></div>
+        <div class="coretip" id="coretip" aria-hidden="true"><b>The Seed of Life</b>The person or family seeking support. Tap to read more.</div>
+        <svg id="m" viewBox="-630 -630 1260 1260" role="group" aria-label="The Healing Modalities Mandala: twenty healing modalities as petals around the Seed of Life, colored by type, ringed by six life stages from preconception to adulthood.">
+        </svg>
+      </div>
+      <div class="filters" id="filters" role="region" aria-label="Filters"></div>
+    </div>
+
+    <div class="panel">
+      <div class="tabs" id="tabs" role="tablist" aria-label="Reading panel">
+        <button class="tab" type="button" role="tab" id="tab-read" aria-selected="true" aria-controls="panel">How to read</button>
+        <button class="tab" type="button" role="tab" id="tab-all" aria-selected="false" aria-controls="panel">All twenty</button>
+      </div>
+      <div id="panel" role="tabpanel" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <h2>About this mandala</h2>
+    <p>This mandala is a learning tool for prenatal and perinatal educators. It gathers the healing modalities from Module 12 of APPPAH's Prenatal and Perinatal Educator program, Resolving and Healing, and shows what each one is, who it serves, when in life it fits, what a person can explore on their own, and when to refer to a trained practitioner.</p>
+    <h3>The educator's part</h3>
+    <p>An educator describes and refers. This mandala does not teach anyone to practice these modalities. Each one requires its own training outside this program, and some also require a license. Each card names who can practice it.</p>
+    <h3>Finding a practitioner</h3>
+    <p>Each card lists where to look for that modality. Two general directories can help with any of them:</p>
+    <ul class="dirs">
+      <li><a href="https://birthpsychology.com/" target="_blank" rel="noopener">APPPAH Practitioner Directory</a> (birthpsychology.com)</li>
+      <li><a href="https://postpartum.net/get-help/provider-directory/" target="_blank" rel="noopener">Postpartum Support International provider directory</a> (postpartum.net)</li>
+    </ul>
+    <p>Links marked <span class="mc-flag" style="margin:0">not verified</span> or <span class="mc-flag" style="margin:0">from module notes</span> come from the course materials and have not yet been checked.</p>
+    <h3>How it was made</h3>
+    <p>Every card comes from one reference spreadsheet, built from the Module 12 readings and videos. The evidence levels are kept as they appear there: research-based, some research, case reports, and practice-based.</p>
+    <h3>Module 12 sources</h3>
+    <ol class="refs" id="refs"></ol>
+    <p class="foot">Created by Erin Singleton, a student in APPPAH's Prenatal &amp; Perinatal Educator certification. An educational map, not medical advice.</p>
+  </section>
+</div>
+
+<script src="modalities.js"></script>
+<script src="modality-card.js"></script>
+<script>
+(function(){
+"use strict";
+const panel=document.getElementById("panel");
+if(!window.MODALITIES || !window.ModalityCard){
+  panel.innerHTML=`<p class="loaderr">The modality data did not load. Run <code>python3 build.py</code> in this folder to make <code>modalities.js</code>.</p>`;
+  return;
+}
+const DATA=window.MODALITIES, {render, evidenceBadge, typeKey, esc}=window.ModalityCard;
+// the petals, grouped by type in the order of DATA.types; within a type, the spreadsheet's order
+const MODS=DATA.types.flatMap(t=>DATA.modalities.filter(m=>m.type===t));
+const N=MODS.length;
+
+/* ---------- Geometry ---------- */
+// radii, [inner, outer]: the seed, the petals, six thin rings for the stages of life, the type band, the braid
+const R={core:66, petal:[74,400], st:[434,542], type:[550,576], braid:[590,616]};
+const SHOW_BRAID=false;               // the braid is set aside for now; true brings it back
+const VB=SHOW_BRAID?630:590;          // half the width of the drawing
+const BULGE=24;                       // how far each petal's outer edge swells
+const W=360/N;                        // the width of one petal, in degrees
+const A0=0;                           // the first petal starts at the top
+const STAGE_LABELS=[45,135,225,315];  // the stage rings are named on the petals at these angles
+const wA=i=>[A0+i*W, A0+(i+1)*W];
+const STW=(R.st[1]-R.st[0])/DATA.stages.length;
+const NS="http://www.w3.org/2000/svg";
+const svg=document.getElementById("m");
+const rad=d=>(d-90)*Math.PI/180;
+const P=(r,a)=>[r*Math.cos(rad(a)), r*Math.sin(rad(a))];
+const f=n=>n.toFixed(2);
+function el(tag,attrs,parent){ const e=document.createElementNS(NS,tag); for(const k in attrs) e.setAttribute(k,attrs[k]); (parent||svg).appendChild(e); return e; }
+function arc(r,a0,a1,sweep){ const [x,y]=P(r,a1); const large=Math.abs(a1-a0)>180?1:0; return `A${f(r)} ${f(r)} 0 ${large} ${sweep} ${f(x)} ${f(y)}`; }
+// annular sector, with the outer edge swelling outward when bulge is set
+function sector(r0,r1,a0,a1,bulge){
+  const s=P(r0,a0), e=P(r1,a0); let d=`M${f(s[0])} ${f(s[1])} L${f(e[0])} ${f(e[1])} `;
+  if(bulge){ const c=P(r1+bulge,(a0+a1)/2), q=P(r1,a1); d+=`Q${f(c[0])} ${f(c[1])} ${f(q[0])} ${f(q[1])} `; }
+  else d+=arc(r1,a0,a1,1)+" ";
+  const b=P(r0,a1); d+=`L${f(b[0])} ${f(b[1])} `+arc(r0,a1,a0,0)+"Z"; return d;
+}
+let tpId=0;
+function arcText(r,a0,a1,text,cls,size,ls,parent){
+  const m=((a0+a1)/2+360)%360, flip=m>95&&m<265;
+  const id="tp"+(tpId++), rr=flip? r+size*0.35 : r-size*0.35;
+  const [sx,sy]=P(rr, flip?a1:a0);
+  el("path",{id,d:`M${f(sx)} ${f(sy)} `+arc(rr,flip?a1:a0,flip?a0:a1,flip?0:1),fill:"none"},parent);
+  const t=el("text",{class:cls,"font-size":size,"text-anchor":"middle","letter-spacing":ls||0},parent);
+  const tp=el("textPath",{href:"#"+id,startOffset:"50%"},t); tp.textContent=text; return t;
+}
+// a name written along the long edge of its petal, reading outward on the right and inward on the left so it stays upright
+function radialText(name,a,parent){
+  const left=a>180, rot=left? a+90 : a-90, mid=(R.petal[0]+R.petal[1])/2+34;
+  const g=el("g",{transform:`rotate(${f(rot)})`},parent);
+  let size=17.5, lines=[name];
+  const t=el("text",{class:"wname","font-size":size,"text-anchor":"middle","dominant-baseline":"central",x:f(left?-mid:mid),y:0},g);
+  t.textContent=name;
+  const max=R.petal[1]-R.petal[0]-110;
+  if(t.getComputedTextLength()>max){
+    // two lines, broken at the space nearest the middle (before a bracket if there is one)
+    const words=name.split(" "); let best=1, bestD=1e9;
+    for(let i=1;i<words.length;i++){ const a1=words.slice(0,i).join(" "), d=Math.abs(a1.length-name.length/2)-(words[i].startsWith("(")?6:0); if(d<bestD){bestD=d;best=i;} }
+    lines=[words.slice(0,best).join(" "), words.slice(best).join(" ")];
+    t.textContent=""; size=16;
+    t.setAttribute("font-size",size);
+    lines.forEach((ln,i)=>{ const s=el("tspan",{x:f(left?-mid:mid),dy:i?size*1.12:-size*0.56},t); s.textContent=ln; });
+    // in case a line is still too long, shrink to fit
+    const longest=Math.max(...[...t.children].map(s=>s.getComputedTextLength()));
+    if(longest>max){ size=size*max/longest; t.setAttribute("font-size",f(size)); [...t.children].forEach((s,i)=>s.setAttribute("dy",i?size*1.12:-size*0.56)); }
+  }
+  return t;
+}
+
+/* ---------- Tooltips ---------- */
+const tip=document.getElementById("tip"), box=svg.parentElement;
+function showTip(x,y,html,color){
+  if(html==null){ tip.classList.remove("on"); return; }
+  tip.innerHTML=html; tip.style.setProperty("--tipc",color||"var(--center)");
+  // keep the note inside the wheel's box, so a note near the edge never runs off it
+  const bw=box.clientWidth, tw=tip.offsetWidth, px=(x+VB)/(2*VB)*bw;
+  tip.style.left=Math.min(Math.max(px,tw/2+4),bw-tw/2-4)+"px"; tip.style.top=((y+VB)/(2*VB)*100)+"%";
+  tip.classList.add("on");
+}
+
+/* ---------- Filters ---------- */
+const FILTERS=[
+  {id:"who",   label:"Who it is for", options:DATA.who.map(w=>({v:w.id,label:w.label})), test:(m,v)=>m.whoGroups.includes(v)},
+  {id:"type",  label:"Type",          options:DATA.types.map(t=>({v:t,label:t,sw:`var(--t-${typeKey(t)})`})), test:(m,v)=>m.type===v},
+  {id:"stage", label:"When it fits",  options:DATA.stages.map((s,j)=>({v:s,label:s,sw:`var(--when-${j})`})), test:(m,v)=>m.stages.some(s=>s.stage===v)},
+  {id:"ev",    label:"Evidence",      options:DATA.evidence.map(e=>({v:e,label:e,ev:true})), test:(m,v)=>m.evidence===v},
+];
+const on={who:new Set(),type:new Set(),stage:new Set(),ev:new Set()};
+const matches=m=>FILTERS.every(F=>!on[F.id].size || [...on[F.id]].some(v=>F.test(m,v)));
+const filtering=()=>FILTERS.some(F=>on[F.id].size);
+const fbox=document.getElementById("filters");
+fbox.innerHTML=FILTERS.map(F=>`<fieldset class="fgroup"><legend>${F.label}</legend><div class="chips">${F.options.map(o=>
+  `<button type="button" class="chip" aria-pressed="false" data-f="${F.id}" data-v="${esc(o.v)}">${o.sw?`<span class="sw" style="background:${o.sw}"></span>`:""}${o.ev?evidenceBadge(o.v,DATA,true):esc(o.label)}</button>`).join("")}</div></fieldset>`).join("")
+  +`<div class="fstatus"><span id="fcount"></span><button type="button" class="btn" id="fclear" hidden>Clear filters</button></div>`;
+fbox.addEventListener("click",e=>{ const b=e.target.closest(".chip"); if(!b) return;
+  const s=on[b.dataset.f], v=b.dataset.v; s.has(v)?s.delete(v):s.add(v); applyFilters(); });
+document.getElementById("fclear").addEventListener("click",()=>{ Object.values(on).forEach(s=>s.clear()); applyFilters(); });
+function setFilter(id,v){ Object.values(on).forEach(s=>s.clear()); on[id].add(v); applyFilters(); }
+function applyFilters(){
+  fbox.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed",on[b.dataset.f].has(b.dataset.v)));
+  const n=MODS.filter(matches).length, any=filtering();
+  svg.classList.toggle("filtering",any);
+  wedges.forEach((g,i)=>g.classList.toggle("off",any&&!matches(MODS[i])));
+  document.getElementById("fcount").innerHTML= any ? `<b>${n}</b> of ${N} modalities match` : `Showing all ${N} modalities. Choose any filters to narrow them.`;
+  document.getElementById("fclear").hidden=!any;
+  if(view==="all") showAll();
+}
+
+/* ---------- Draw ---------- */
+const wedges=[];
+let selId=null, view="read";
+function draw(){
+  svg.querySelectorAll(":scope > :not(title)").forEach(n=>n.remove()); wedges.length=0; tpId=0;
+  svg.setAttribute("viewBox",`${-VB} ${-VB} ${2*VB} ${2*VB}`);
+  if(SHOW_BRAID) drawBraid();
+  // the type band: one arc for each run of petals of the same type, named; tap to filter by that type
+  DATA.types.forEach(t=>{
+    const idx=MODS.map((m,i)=>m.type===t?i:-1).filter(i=>i>=0); if(!idx.length) return;
+    const a0=wA(idx[0])[0]+0.5, a1=wA(idx[idx.length-1])[1]-0.5, k=typeKey(t);
+    const band=el("path",{d:sector(R.type[0],R.type[1],a0,a1,0),class:"tband",fill:`var(--p-${k})`,tabindex:"0",role:"button","aria-label":`${t}. Show only ${t.toLowerCase()} modalities`});
+    const act=()=>{ if(on.type.size===1&&on.type.has(t)) on.type.clear(); else setFilter("type",t); applyFilters(); };
+    // its hover note: what the type means (from build.py's type descriptions), or else the modalities it holds
+    const names=idx.map(i=>MODS[i].name), desc=(DATA.typeInfo||{})[t];
+    const bandTip=()=>{ const [x,y]=P(R.type[0],(a0+a1)/2);
+      showTip(x,y,`<b>${esc(t)}</b>${desc?esc(desc):`${names.length===1?"One modality":names.length+" modalities"}: ${names.map(esc).join(", ")}`}<span>${names.length===1?"One modality":names.length+" modalities"}. Tap to show only ${names.length===1?"this one":"these"}.</span>`,`var(--t-${k})`); };
+    band.addEventListener("mouseenter",bandTip);
+    band.addEventListener("mouseleave",()=>showTip(null));
+    band.addEventListener("focus",()=>{ if(band.matches(":focus-visible")) bandTip(); });
+    band.addEventListener("blur",()=>showTip(null));
+    band.addEventListener("click",act);
+    band.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); act(); } });
+    arcText((R.type[0]+R.type[1])/2,a0,a1,t.toUpperCase(),"tlbl",idx.length>1?12:10.5,idx.length>1?2.2:1.2);
+  });
+  // the petals, each with its stage marks outside it
+  MODS.forEach((m,i)=>{
+    const [a0,a1]=wA(i), k=typeKey(m.type), mid=(a0+a1)/2;
+    const g=el("g",{class:"wedge",tabindex:"0",role:"button","data-id":m.id,
+      style:`--wc:var(--t-${k});--wt:var(--p-${k})`,
+      "aria-label":`${m.name}. ${m.type}. Evidence: ${m.evidence}. Fits: ${m.stages.map(s=>s.stage).join(", ")}. Open its card`});
+    el("path",{d:sector(R.petal[0],R.petal[1],a0+0.8,a1-0.8,BULGE),class:"petal",fill:`var(--p-${k})`},g);
+    DATA.stages.forEach((s,j)=>{
+      const st=m.stages.find(x=>x.stage===s);
+      const c=el("path",{d:sector(R.st[0]+STW*j,R.st[0]+STW*(j+1),a0+0.8,a1-0.8,0),class:"st "+(st?"on":"off"),style:`--sc:var(--when-${j})`},g);
+      if(st){
+        c.addEventListener("mouseenter",e=>{ e.stopPropagation(); const [x,y]=P(R.st[0]+STW*j,mid); showTip(x,y,`<b>${esc(s)}</b>${esc(st.text)}<span>${esc(m.name)}</span>`,`var(--when-${j})`); });
+        c.addEventListener("mouseleave",()=>showTip(null));
+      }
+    });
+    radialText(m.name,mid,g);
+    const petalTip=()=>{ const [x,y]=P(R.petal[0]+60,mid); showTip(x,y,`<em>${esc(m.type)}</em><b>${esc(m.name)}</b>${esc(m.definition)}<span>${esc(m.evidence)} · Tap to open its card.</span>`,`var(--t-${k})`); };
+    g.addEventListener("mouseenter",petalTip);
+    g.addEventListener("mouseleave",()=>showTip(null));
+    g.addEventListener("focus",()=>{ if(g.matches(":focus-visible")) petalTip(); });
+    g.addEventListener("blur",()=>showTip(null));
+    g.addEventListener("click",()=>{ showTip(null); select(m.id,true); });
+    g.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); showTip(null); select(m.id,true,true); } });
+    wedges.push(g);
+  });
+  // the names of the stage rings, on the petals at the four diagonals, so the wheel stays whole
+  const lbl=el("g",{"pointer-events":"none","aria-hidden":"true"});
+  STAGE_LABELS.forEach(a=>{ const i=Math.floor(a/W)%N, [a0,a1]=wA(i);
+    DATA.stages.forEach((s,j)=>arcText(R.st[0]+STW*(j+0.5),a0+0.6,a1-0.6,s,"stlbl"+(MODS[i].stages.some(x=>x.stage===s)?" on":""),11.5,0.1,lbl).style.setProperty("--lbl",`var(--when-${j}-ink)`)); });
+  // the center: the Seed of Life, seven circles of equal radius, six centered on the rim of the first
+  const core=el("g",{class:"core",tabindex:"0",role:"button","aria-label":"The Seed of Life at the center: the person or family seeking support. Read more"});
+  el("circle",{cx:0,cy:0,r:R.core,fill:"var(--center)",class:"disc"},core);
+  const sr=26, sg=el("g",{fill:"none",stroke:"var(--seed)","stroke-width":2,"pointer-events":"none"},core);
+  // its six petals carry the six stage colors, clockwise from preconception at the top
+  for(let k=0;k<6;k++){ const t=k*Math.PI/3-Math.PI/2, x=f(sr*Math.cos(t)), y=f(sr*Math.sin(t));
+    el("path",{d:`M0 0 A${sr} ${sr} 0 0 1 ${x} ${y} A${sr} ${sr} 0 0 1 0 0Z`,fill:`var(--when-${k})`,stroke:"none"},sg); }
+  el("circle",{cx:0,cy:0,r:sr},sg);
+  for(let k=0;k<6;k++){ const t=k*Math.PI/3-Math.PI/2; el("circle",{cx:f(sr*Math.cos(t)),cy:f(sr*Math.sin(t)),r:sr},sg); }
+  el("circle",{cx:0,cy:0,r:sr*2,"stroke-width":2.2,opacity:.9},sg);
+  const ct=document.getElementById("coretip");
+  core.addEventListener("click",()=>{ ct.classList.remove("on"); showCenter(true); });
+  core.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); showCenter(true); } });
+  ["mouseenter","focus"].forEach(ev=>core.addEventListener(ev,()=>ct.classList.add("on")));
+  ["mouseleave","blur"].forEach(ev=>core.addEventListener(ev,()=>ct.classList.remove("on")));
+  markSel(); applyFilters();
+}
+
+/* The braid: three strands, the self, the educator, and the practitioner, plaited around the whole wheel.
+   Each strand is cut where it changes from lying underneath to lying on top; the lower pieces are drawn
+   first and the upper pieces over them, so each crossing shows who is on top. */
+function drawBraid(){
+  const [r0,r1]=R.braid;
+  const hit=el("path",{d:`M0 ${-r1-4} A${r1+4} ${r1+4} 0 1 1 0 ${r1+4} A${r1+4} ${r1+4} 0 1 1 0 ${-r1-4} M0 ${-r0+4} A${r0-4} ${r0-4} 0 1 0 0 ${r0-4} A${r0-4} ${r0-4} 0 1 0 0 ${-r0+4}Z`,
+    class:"braidhit","fill-rule":"evenodd",tabindex:"0",role:"button","aria-label":"The braid. Read what it means"});
+  const html=`<b>The braid</b>Three strands woven together: the self, the educator, and the practitioner. Each has a part in healing, and together they hold this mandala in place.`;
+  let open=false;
+  const toggle=(x,y)=>{ open=!open; showTip(open?x:0,open?y:0,open?html:null,"var(--s-self)"); };
+  hit.addEventListener("click",e=>{ const pt=new DOMPoint(e.clientX,e.clientY).matrixTransform(svg.getScreenCTM().inverse()); toggle(pt.x,pt.y); });
+  hit.addEventListener("keydown",e=>{ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); toggle(0,-r0); } });
+  hit.addEventListener("blur",()=>{ if(open){ open=false; showTip(null); } });
+  const g=el("g",{class:"braid","pointer-events":"none","aria-hidden":"true"});
+  const rc=(r0+r1)/2, A=8.5, NP=60, SUB=8;   // NP plaits round the circle
+  const strands=[["--s-self",0],["--s-edu",2*Math.PI/3],["--s-prac",4*Math.PI/3]];
+  const pieces=[[],[]];   // [under, over]
+  strands.forEach(([color,ph])=>{
+    for(let m=0;m<NP*4;m++){
+      const t0=m*Math.PI/2-ph, pts=[];
+      for(let j=0;j<=SUB;j++){ const t=t0+j*Math.PI/(2*SUB), [x,y]=P(rc+A*Math.sin(t+ph), t*180/(Math.PI*NP)); pts.push((j?"L":"M")+f(x)+" "+f(y)); }
+      pieces[m%2===0?1:0].push([pts.join(" "),color]);
+    }
+  });
+  pieces.forEach(list=>list.forEach(([d,color])=>{
+    el("path",{d,fill:"none",stroke:"var(--bg)","stroke-width":10,"stroke-linecap":"butt"},g);
+    el("path",{d,fill:"none",stroke:`var(${color})`,"stroke-width":6.5,"stroke-linecap":"round"},g);
+  }));
+}
+
+/* ---------- Panel ---------- */
+const tabs={read:document.getElementById("tab-read"), all:document.getElementById("tab-all")};
+function setTab(which){ Object.entries(tabs).forEach(([k,b])=>b.setAttribute("aria-selected",k===which)); }
+tabs.read.addEventListener("click",()=>showIntro(true));
+tabs.all.addEventListener("click",()=>showAll(true));
+const sw=c=>`<span class="sw" style="background:${c}"></span>`;
+function reveal(user){ if(user && window.matchMedia("(max-width:900px)").matches) panel.scrollIntoView({behavior:"smooth",block:"start"}); }
+function markSel(){ wedges.forEach(g=>g.classList.toggle("sel",g.dataset.id===selId)); }
+
+function showIntro(user){
+  view="read"; selId=null; markSel(); setTab("read");
+  panel.innerHTML=`<div class="intro">
+    <div class="eyebrow">Begin here</div>
+    <h2>How to read this mandala</h2>
+    <p>Read it from the center out.</p>
+    <ul class="legend">
+      <li>${sw("var(--center)")}<div><b>The Seed of Life</b><p>The person or family seeking support.</p></div></li>
+      <li>${sw("var(--p-somatic)")}<div><b>The petals</b><p>The twenty healing modalities from Module 12, one to a petal, colored by type. Tap a petal to open its card.</p></div></li>
+      <li>${sw(`linear-gradient(135deg,${DATA.stages.map((s,j)=>`var(--when-${j})`).join(",")})`)}<div><b>When it fits</b><p>Six thin rings around the petals, one for each stage of life, from the inside out: ${DATA.stages.map(s=>s.toLowerCase()).join(", ").replace(/, ([^,]*)$/,", and $1")}. Each stage has its own shade, in a soft rainbow, from rose at preconception to lavender at adulthood. A filled mark means the modality fits that stage. Hover over a mark to read how.</p></div></li>
+      <li>${sw("var(--p-energetic)")}<div><b>Type</b><p>The outer band names the seven types. Tap one to see only its modalities.</p>
+        <ul class="typelist" style="margin-top:6px">${DATA.types.map(t=>`<li>${sw(`var(--t-${typeKey(t)})`)}${esc(t)}${(DATA.typeInfo||{})[t]?`<span class="tdesc">: ${esc(DATA.typeInfo[t])}</span>`:""}</li>`).join("")}</ul></div></li>
+      ${SHOW_BRAID?`<li>${sw("var(--s-edu)")}<div><b>The braid</b><p>Three strands: the self, the educator, and the practitioner.</p></div></li>`:""}
+    </ul>
+    <p>Each card follows the path an educator walks with a family: what the modality is, how to speak about it, what a family can explore on their own, when to go deeper with a practitioner, and when to reach out.</p>
+    <p>The filters under the mandala find modalities by who they are for, their type, when they fit, and their evidence level. Every card shows its evidence level, so the strength of the evidence stays in view.</p>
+  </div>`;
+  reveal(user);
+}
+function showCenter(user){
+  view="center"; selId=null; markSel(); setTab(null);
+  panel.innerHTML=`<div class="center-msg">
+    <div class="eyebrow">At the center</div>
+    <h2>The Seed of Life</h2>
+    <p>At the center is the person or family seeking support. Every petal around them is one way that support can come: through the body, through relationship, through sound, through stillness, or through the mind.</p>
+    <p>The educator stands beside the family, describes what is possible, and refers. The healing work itself belongs to trained practitioners.</p>
+    <p><button type="button" class="btn" id="toRead">How to read this mandala</button></p>
+  </div>`;
+  document.getElementById("toRead").addEventListener("click",()=>showIntro(true));
+  reveal(user);
+}
+function showAll(user){
+  view="all"; setTab("all");
+  const any=filtering();
+  panel.innerHTML=`<div class="intro">
+    <div class="eyebrow">The twenty modalities</div>
+    <h2>All twenty, by type</h2>
+    ${any?`<p class="hint">${MODS.filter(matches).length} of ${N} match the filters. The others are faded.</p>`:""}
+    ${DATA.types.map(t=>{ const list=MODS.filter(m=>m.type===t); if(!list.length) return "";
+      return `<div class="group"><h3>${sw(`var(--t-${typeKey(t)})`)}${esc(t)}</h3><ul class="mlist">${list.map(m=>
+        `<li class="${any&&!matches(m)?"off":""}"><button type="button" data-id="${m.id}" style="--wc:var(--t-${typeKey(t)})"><span class="nm">${esc(m.name)}</span>${evidenceBadge(m.evidence,DATA,true)}</button></li>`).join("")}</ul></div>`; }).join("")}
+  </div>`;
+  panel.querySelectorAll(".mlist button").forEach(b=>b.addEventListener("click",()=>select(b.dataset.id,true,true)));
+  reveal(user);
+}
+function select(id,user,focus){
+  const i=MODS.findIndex(m=>m.id===id); if(i<0) return;
+  const m=MODS[i], prev=MODS[(i+N-1)%N], next=MODS[(i+1)%N];
+  view="card"; selId=id; markSel(); setTab(null);
+  panel.innerHTML=`<div class="rnext">
+      <button type="button" class="btn" data-go="${prev.id}" aria-label="Previous: ${esc(prev.name)}">← ${esc(prev.name)}</button>
+      <button type="button" class="btn" data-go="${next.id}" aria-label="Next: ${esc(next.name)}">${esc(next.name)} →</button>
+    </div>${render(m,DATA)}`;
+  panel.querySelectorAll("[data-go]").forEach(b=>b.addEventListener("click",()=>select(b.dataset.go,true,true)));
+  try{ history.replaceState(null,"","#"+id); }catch(e){}
+  if(focus) panel.querySelector(".mc h2").focus({preventScroll:true});
+  reveal(user);
+}
+
+/* ---------- References: the Module 12 sources, each with the cards that use it ---------- */
+(function(){
+  const bySrc=new Map();
+  MODS.forEach(m=>{ if(!m.source) return; if(!bySrc.has(m.source)) bySrc.set(m.source,[]); bySrc.get(m.source).push(m); });
+  const refs=[...bySrc.entries()].sort((a,b)=>a[0].localeCompare(b[0]));
+  document.getElementById("refs").innerHTML=refs.map(([s,ms])=>`<li>${esc(s)}<span class="cited">Cited in: ${ms.map(m=>`<button type="button" data-id="${m.id}">${esc(m.name)}</button>`).join(", ")}</span></li>`).join("");
+  document.getElementById("refs").addEventListener("click",e=>{ const b=e.target.closest("button[data-id]"); if(!b) return;
+    select(b.dataset.id,false,true); document.querySelector(".main").scrollIntoView({behavior:"smooth"}); });
+})();
+
+/* ---------- Light and dark ---------- */
+const root=document.documentElement, tbtn=document.getElementById("themebtn"), sysDark=window.matchMedia("(prefers-color-scheme: dark)");
+function isDark(){ const t=root.getAttribute("data-theme"); return t? t==="dark" : sysDark.matches; }
+function syncTheme(){ const d=isDark(); root.classList.toggle("is-dark",d); tbtn.setAttribute("aria-label",d?"Switch to light mode":"Switch to dark mode"); tbtn.title=d?"Light mode":"Dark mode"; }
+tbtn.addEventListener("click",()=>{ const next=isDark()?"light":"dark"; root.setAttribute("data-theme",next); try{ localStorage.setItem("hm-theme",next); }catch(e){} syncTheme(); });
+sysDark.addEventListener("change",syncTheme);
+syncTheme();
+
+/* ---------- Start ---------- */
+const start=()=>{ draw(); const h=decodeURIComponent(location.hash.slice(1)); if(MODS.some(m=>m.id===h)) select(h,false); else showIntro(false); };
+// the petal names are measured to fit, so wait for the display font
+if(document.fonts && document.fonts.ready) document.fonts.ready.then(start); else start();
+})();
+</script>
+</body>
+</html>

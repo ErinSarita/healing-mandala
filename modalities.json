@@ -1,0 +1,883 @@
+{
+ "source": "PPN Healing Modalities Reference.xlsx",
+ "stages": [
+  "Preconception",
+  "Pregnancy",
+  "Birth",
+  "Fourth trimester",
+  "Early childhood",
+  "Adulthood"
+ ],
+ "types": [
+  "Somatic",
+  "Relational",
+  "Sound",
+  "Contemplative",
+  "Energetic",
+  "Hypnotic",
+  "Cognitive"
+ ],
+ "evidence": [
+  "Research-based",
+  "Some research",
+  "Case reports",
+  "Practice-based"
+ ],
+ "who": [
+  {
+   "id": "prenate",
+   "label": "Prenate"
+  },
+  {
+   "id": "newborn",
+   "label": "Newborn"
+  },
+  {
+   "id": "baby",
+   "label": "Baby"
+  },
+  {
+   "id": "child",
+   "label": "Child"
+  },
+  {
+   "id": "mother",
+   "label": "Mother"
+  },
+  {
+   "id": "partner",
+   "label": "Partner"
+  },
+  {
+   "id": "family",
+   "label": "Family"
+  },
+  {
+   "id": "adult",
+   "label": "Adult"
+  }
+ ],
+ "typeInfo": {
+  "Somatic": "Healing through the body. Gentle touch, movement, and body awareness help release what the body has held since the womb, birth, and early life.",
+  "Relational": "Healing through connection. Closeness between parent and baby, before and after birth, is where bonding grows and repair happens.",
+  "Sound": "Healing through voice and music. Singing, chanting, toning, and music calm the nervous system and draw parent and baby together.",
+  "Contemplative": "Healing through stillness and inner attention. Meditation, intention, and spiritual practice make space to clear and honor what the womb holds.",
+  "Energetic": "Healing through the body's energy. Tapping on acupressure points, imagery, and muscle feedback ease emotional charge and restore balance.",
+  "Hypnotic": "Healing through a relaxed, focused state of mind. In this state a person can reach early memories, even from the womb or birth, and meet them with new understanding and care.",
+  "Cognitive": "Healing through the way the mind stores memory. A structured process helps disturbing memories, including birth experiences, lose their charge."
+ },
+ "hasReachOut": false,
+ "modalities": [
+  {
+   "id": "craniosacral-therapy-cst",
+   "name": "Craniosacral Therapy (CST)",
+   "definition": "A light-touch, hands-on manual therapy that works with the membranes and fluid around the brain and spinal cord (the craniosacral system) to release restrictions in the body.",
+   "type": "Somatic",
+   "who": "Baby, child, mother, adult",
+   "addresses": "Birth imprints held in the body, tension patterns, settling and feeding difficulty, stress after a hard birth",
+   "plain": "A very gentle, hands-on therapy. The practitioner uses light touch to help the body release tension, including tension from birth.",
+   "practitioner": "Trained CST practitioner (Upledger or biodynamic craniosacral training). Often combined with a license such as massage, physical therapy, or chiropractic.",
+   "selfHelp": "Parents can learn calm, gentle holding. The therapy itself needs a trained practitioner.",
+   "find": "Upledger: iahp.com | Biodynamic (RCST): craniosacraltherapy.org/rcst-member-directory",
+   "myReferrals": "",
+   "session": "Client is clothed. The practitioner rests hands lightly on the head, spine, or sacrum. A baby is often held by a parent during the session.",
+   "questions": "Does it hurt? No, the touch is very light. Is it safe for a newborn? Choose a practitioner trained to work with infants.",
+   "offer": "Some families find gentle body work helpful after birth. Would you like information about craniosacral therapy?",
+   "careful": "Do not promise outcomes. It does not replace medical care, a feeding assessment, or a tongue-tie evaluation.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "John E. Upledger (Upledger CST); Carol McLellan (CST for conception, pregnancy, and birth)",
+   "origin": "Developed by osteopathic physician John Upledger, building on Sutherland's cranial work. Upledger Institute founded 1985.",
+   "source": "Video: CranioSacral Therapy for Birth Healing and Resolution (Carol McLellan)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Body tension in pregnancy, preparing the body for birth. Upledger lists conception, pregnancy, and birth among its areas."
+    },
+    {
+     "stage": "Birth",
+     "text": "Support for mother and baby after a long, fast, assisted, or cesarean birth"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Settling or feeding difficulty, a baby who seems tense or startles easily"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Tension patterns that seem to persist from birth"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults working with their own birth story through the body"
+    }
+   ],
+   "whoGroups": [
+    "baby",
+    "child",
+    "mother",
+    "adult"
+   ]
+  },
+  {
+   "id": "somatotropic-therapy-castellino",
+   "name": "Somatotropic Therapy (Castellino)",
+   "definition": "Ray Castellino's body-centered therapy for babies and families. It recognizes how prenatal and birth trauma is imprinted in the body and supports its resolution through a seven-step process.",
+   "type": "Somatic",
+   "who": "Newborn, baby, whole family",
+   "addresses": "Prenatal and birth trauma held in the body, early overwhelm, interrupted bonding",
+   "plain": "A body-centered way of being with babies and families. It slows down, follows the baby's cues, and helps the baby's birth story be seen and resolved.",
+   "practitioner": "Practitioners trained in Castellino's prenatal and birth therapy",
+   "selfHelp": "Parents can slow down, watch the baby's cues, and speak to the baby about what happened.",
+   "find": "Search: Castellino Prenatal and Birth Therapy training (not verified) | APPPAH Practitioner Directory",
+   "myReferrals": "",
+   "session": "A family session with the baby present. The pace is slow. The practitioner watches the baby's movements and supports parents and baby together.",
+   "questions": "Can a baby remember birth? Castellino holds that babies carry their birth experience in body and behavior.",
+   "offer": "Babies often tell their birth story through their bodies. Some practitioners specialize in helping families listen.",
+   "careful": "Castellino's statements, such as how widespread birth trauma is and his catecholamine hypothesis, are his clinical views.",
+   "reachOut": "",
+   "evidence": "Case reports",
+   "founder": "Ray Castellino",
+   "origin": "Introduced Somatotropic Therapy in 1996, within prenatal and perinatal psychology",
+   "source": "Article: Being with Newborns: An Introduction to Somatotropic Therapy (Castellino)",
+   "stages": [
+    {
+     "stage": "Birth",
+     "text": "A baby who shows signs of overwhelm after birth"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Signs Castellino describes: a startle (Moro) response to sound or movement, crying that does not settle, trouble attaching at the breast"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Behaviors or struggles that may trace back to the womb or birth"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults resolving their own prenatal and birth imprints"
+    }
+   ],
+   "whoGroups": [
+    "newborn",
+    "baby",
+    "family"
+   ]
+  },
+  {
+   "id": "emerson-birth-trauma-treatment",
+   "name": "Emerson birth trauma treatment",
+   "definition": "A psychotherapy approach for infants, children, and adults that treats prenatal and birth trauma through regression, emotional release, and empathic response from parents and practitioner.",
+   "type": "Somatic",
+   "who": "Infant, child, adult",
+   "addresses": "Birth trauma, including cesarean birth: feeling stuck, giving up, feeling intruded upon, rescue fantasies",
+   "plain": "A therapy that helps babies and children express a hard birth while parents respond with empathy, so trust and bonding can grow.",
+   "practitioner": "Therapist trained in Emerson's methods",
+   "selfHelp": "Parents can meet crying with empathy and acknowledge the baby's experience.",
+   "find": "emersonbirthrx.com (from module notes, directory not verified)",
+   "myReferrals": "",
+   "session": "Parent present. The baby is invited to the edge of a memory and may cry or push, and the therapist and parent respond with empathy. Five conditions: catharsis, empathy, empowerment, choice, boundaries.",
+   "questions": "Will this upset my baby? Babies are given choice, and treatment stops when they signal no.",
+   "offer": "Some families find it helpful to work with a hard birth early, with a specialist who includes the parents.",
+   "careful": "Based mostly on Emerson's own case studies. Reading crying as memory is his interpretation.",
+   "reachOut": "",
+   "evidence": "Case reports",
+   "founder": "William R. Emerson, PhD",
+   "origin": "First in the field to develop treatment for infants with prenatal and perinatal trauma. Published in JOPPPAH, 2001.",
+   "source": "Article: Treating Cesarean Birth Trauma During Infancy and Childhood (Emerson)",
+   "stages": [
+    {
+     "stage": "Birth",
+     "text": "After a cesarean or difficult birth"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "A baby who seems distressed after a hard or cesarean birth"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Children who feel stuck in transitions, give up easily, or feel misunderstood"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults working with their own birth through regression"
+    }
+   ],
+   "whoGroups": [
+    "baby",
+    "child",
+    "adult"
+   ]
+  },
+  {
+   "id": "baby-therapy-and-developmental-movement",
+   "name": "Baby therapy and developmental movement",
+   "definition": "Approaches that help babies release birth patterns through movement, touch, and attuned interaction, usually with parents taking part.",
+   "type": "Somatic",
+   "who": "Baby and parents",
+   "addresses": "Birth patterns showing in posture and movement, tension, settling",
+   "plain": "Gentle movement, baby yoga, and tummy time with parents, to help babies move through birth patterns toward easy, natural movement.",
+   "practitioner": "Trained practitioners (GoGo Babies, integrative baby therapy). Some parts are safe for parents to learn.",
+   "selfHelp": "Tummy time, floor play, gentle movement, responsive holding",
+   "find": "brightstartbabies.net (Skove) | matthew-appleton.co.uk (Appleton)",
+   "myReferrals": "",
+   "session": "Parent and baby together on the floor, with guided movement and play",
+   "questions": "Is this the same as physical therapy? No, it is a gentle, relational approach. Developmental concerns go to the pediatrician.",
+   "offer": "Would you like some gentle movement ideas for you and your baby, and a practitioner who teaches them?",
+   "careful": "Developmental concerns go to the pediatrician first.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Ellynne Skove (GoGo Babies); Matthew Appleton (integrative baby therapy)",
+   "origin": "Skove: creative arts and somatic PPN therapy. Appleton: body psychotherapy and craniosacral therapy.",
+   "source": "Videos: Healing and Resolving: Babies Repatterning their Birth Imprints (Skove); Recognising Birth Trauma Behaviours (Appleton)",
+   "stages": [
+    {
+     "stage": "Fourth trimester",
+     "text": "A baby who arches, prefers one side, or seems uncomfortable in some positions"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Movement or settling patterns parents want support with"
+    }
+   ],
+   "whoGroups": [
+    "baby",
+    "family"
+   ]
+  },
+  {
+   "id": "kangaroo-care-skin-to-skin",
+   "name": "Kangaroo care (skin to skin)",
+   "definition": "Skin-to-skin contact between parent and baby, from birth and as continuously as possible, with breast milk and support for the parent and baby together.",
+   "type": "Relational",
+   "who": "Preterm and full-term newborn, mother, father or partner",
+   "addresses": "Regulation, bonding, breastfeeding, temperature and cardiorespiratory stability, neurodevelopment, pain",
+   "plain": "Holding your baby skin to skin on your bare chest. It helps your baby's body settle and supports bonding and feeding.",
+   "practitioner": "Parents do it. In the NICU it is guided by the care team.",
+   "selfHelp": "Yes. A core practice for parents.",
+   "find": "Hospital or NICU care team | kangaroomothercare.com (Bergman)",
+   "myReferrals": "",
+   "session": "Baby in a diaper on a parent's bare chest, covered, for long stretches",
+   "questions": "Can my partner do it? Yes. Is it safe in the NICU? The care team guides it for each baby.",
+   "offer": "Skin to skin helps babies settle. Would you like to plan for it?",
+   "careful": "Medically fragile babies need NICU guidance. Teach safe positioning and staying awake while holding.",
+   "reachOut": "",
+   "evidence": "Research-based",
+   "founder": "Nils Bergman",
+   "origin": "Developed for preterm infants. The Canadian Paediatric Society recommends it for all nurseries caring for preterm infants.",
+   "source": "Articles: Kangaroo care for the preterm infant and family; Stanford Medicine skin-to-skin study",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Plan for skin to skin right after birth"
+    },
+    {
+     "stage": "Birth",
+     "text": "Skin to skin in the first hour"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Daily skin to skin. A partner can do it too."
+    }
+   ],
+   "whoGroups": [
+    "newborn",
+    "mother",
+    "partner"
+   ]
+  },
+  {
+   "id": "hypnotherapy-and-regression-ingram",
+   "name": "Hypnotherapy and regression (Ingram)",
+   "definition": "Clinical hypnosis combined with regression to find the origin of a fear or belief, including in the womb or at birth.",
+   "type": "Hypnotic",
+   "who": "Child, adult",
+   "addresses": "Anxiety and fear rooted in prenatal or birth experiences, twin loss in the womb",
+   "plain": "A guided, deeply relaxed state that helps a person find where a fear began. Ingram finds that knowing the origin opens the way to healing.",
+   "practitioner": "Licensed therapist or certified hypnotherapist with regression training",
+   "selfHelp": "Limited: relaxation and noticing feelings. The regression itself is guided.",
+   "find": "juliaingram.com (from module notes)",
+   "myReferrals": "",
+   "session": "Conversation, then a hypnotic induction, then guided regression toward the origin of a feeling",
+   "questions": "Will I lose control? In hypnosis the person stays aware and can stop.",
+   "offer": "If a fear feels older than this pregnancy, some therapists help people look for where it began.",
+   "careful": "Ingram also works with past lives. Present that as her framework. Very early memories in hypnosis can be distorted.",
+   "reachOut": "",
+   "evidence": "Case reports",
+   "founder": "Julia Ingram, MA",
+   "origin": "Psychotherapist and hypnotherapist with over 35 years of practice. Author of Born Scared.",
+   "source": "Article: Hypnotherapy in the Treatment of Children and Adults Who Suffer Anxiety Due to Prenatal and Birth Trauma (Ingram)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Fear of birth that seems older than the pregnancy"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Lifelong anxiety without a clear cause; guilt or longing that may link to a lost twin"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "adult"
+   ]
+  },
+  {
+   "id": "ego-state-hypnotherapy-watkins",
+   "name": "Ego-state hypnotherapy (Watkins)",
+   "definition": "A hypnoanalytic therapy that works with ego states, parts of the personality that form naturally or split off during trauma.",
+   "type": "Hypnotic",
+   "who": "Pregnant person deciding about an abortion; adults who survived an attempted abortion",
+   "addresses": "Guilt and grief around abortion; an early sense of not being wanted",
+   "plain": "A therapy that uses hypnosis and visualization to work with feelings and parts of the self, including speaking with the baby.",
+   "practitioner": "Licensed therapist trained in ego-state therapy and clinical hypnosis",
+   "selfHelp": "Quiet breathing, a hand on the belly, speaking to the baby. In the article this was done alongside therapy.",
+   "find": "Not verified. Look for a licensed therapist trained in ego-state therapy or clinical hypnosis.",
+   "myReferrals": "",
+   "session": "Hypnotic induction, visualizing the baby, silent dialogue. The affect bridge follows a feeling back to where it began.",
+   "questions": "Is this only for abortion? No. Ego-state therapy is used for many kinds of early trauma.",
+   "offer": "Some therapists help people work through grief or guilt around a pregnancy decision. Would you like a referral?",
+   "careful": "1986 case reports. The article does not address healing after an abortion has already happened. Leave out its miscarriage anecdotes.",
+   "reachOut": "",
+   "evidence": "Case reports",
+   "founder": "Helen H. Watkins and John G. Watkins",
+   "origin": "Co-creators of Ego State Therapy, University of Montana",
+   "source": "Article: Treating the Trauma of Abortion (Watkins, 1986)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Before a planned abortion"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults with a lifelong sense of not being wanted. Grief after a past abortion is not covered in the article, though the approach may apply."
+    }
+   ],
+   "whoGroups": [
+    "mother",
+    "adult"
+   ]
+  },
+  {
+   "id": "hypnosis-and-inner-child-work-gerland",
+   "name": "Hypnosis and inner child work (Gerland)",
+   "definition": "Therapeutic hypnosis combined with body awareness and inner child work to access and heal early memories.",
+   "type": "Hypnotic",
+   "who": "Adult",
+   "addresses": "Early imprints and unresolved wounds that shape adult behavior, health, and relationships",
+   "plain": "A guided practice that uses body awareness and hypnosis to meet the younger self and heal early memories.",
+   "practitioner": "Trained hypnotherapist",
+   "selfHelp": "Body awareness and inner child reflection",
+   "find": "francoisgerland.com (from module notes)",
+   "myReferrals": "",
+   "session": "Somatic awareness exercises, then therapeutic hypnosis",
+   "questions": "What is an inner child? The younger self who still carries early feelings.",
+   "offer": "Some people find it healing to revisit their earliest experiences with a trained guide.",
+   "careful": "The quiz describes three kinds of memory (historical, emotional, decision). Not verified against the source.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Francois Gerland; Kelduyn Garland",
+   "origin": "Co-founder of Birth the Change and Birthing the New Humanity; hypnotherapy trainer",
+   "source": "Video: How to Access Early Memories and Change Your Life (Gerland)",
+   "stages": [
+    {
+     "stage": "Adulthood",
+     "text": "Adults exploring their earliest imprints"
+    }
+   ],
+   "whoGroups": [
+    "adult"
+   ]
+  },
+  {
+   "id": "emdr",
+   "name": "EMDR",
+   "definition": "Eye Movement Desensitization and Reprocessing: an eight-phase psychotherapy that uses side-to-side stimulation (eye movements, taps, or tones) to help reprocess disturbing memories.",
+   "type": "Cognitive",
+   "who": "Adult; child with a child-trained therapist",
+   "addresses": "Trauma memories, including prenatal and perinatal trauma and a mother's traumatic birth",
+   "plain": "A structured therapy that uses eye movements or other side-to-side stimulation to help the brain reprocess hard memories so they feel less charged.",
+   "practitioner": "Licensed mental health professional with EMDR training",
+   "selfHelp": "No. Done with a trained therapist.",
+   "find": "emdria.org/find-an-emdr-therapist",
+   "myReferrals": "",
+   "session": "Eight phases: choosing a memory, naming negative and positive beliefs, sets of eye movements, body scan, and installing the positive belief",
+   "questions": "What are the eye movements for? They help the brain process a memory while the person stays in the present.",
+   "offer": "There is a well-established therapy for traumatic memories, including a hard birth. Would you like a referral?",
+   "careful": "Prenatal and transpersonal use in MacLean's article is case-based. EMDR for trauma in general has a broad research base.",
+   "reachOut": "",
+   "evidence": "Research-based",
+   "founder": "Francine Shapiro; Catherine Anne MacLean (article)",
+   "origin": "Shapiro describes it as integrating psychodynamic, experiential, behavioral, cognitive, body-based, and systems therapies.",
+   "source": "Article: Transpersonal Dimensions in Healing Pre/Perinatal Trauma with EMDR (MacLean)",
+   "stages": [
+    {
+     "stage": "Birth",
+     "text": "A mother's distress after a traumatic birth"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Postpartum distress linked to the birth"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults with prenatal or perinatal trauma"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "adult"
+   ]
+  },
+  {
+   "id": "havening-techniques",
+   "name": "Havening Techniques",
+   "definition": "A psycho-sensory technique that pairs soothing touch with attention exercises to reduce the emotional charge of distressing memories.",
+   "type": "Somatic",
+   "who": "Adult, pregnant or postpartum mother, child",
+   "addresses": "Distressing memories and emotions, stress, building calm and resilience",
+   "plain": "A gentle touch technique, stroking the arms, face, and palms, that calms the nervous system while working with a hard feeling.",
+   "practitioner": "Certified Havening Techniques practitioner. Self-havening can be taught.",
+   "selfHelp": "Yes: self-havening touch for calm",
+   "find": "havening.org",
+   "myReferrals": "",
+   "session": "Rate the distress, apply havening touch with a distraction or imagery, rate again. Touch only with consent, and clients can apply it themselves.",
+   "questions": "Can I do this on my own? Yes, self-havening is often taught. A practitioner is best for deeper trauma.",
+   "offer": "Here is a simple calming touch you can try, and there are practitioners if you want to go deeper.",
+   "careful": "Deeper trauma needs a certified practitioner, since strong emotions can surface.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Ronald Ruden, MD (founder); Alison Shaloe and Ellynne Skove (module presenters)",
+   "origin": "Developed by Ronald Ruden. Havening Techniques is a registered trademark.",
+   "source": "Video: An Introduction to Havening (Shaloe and Skove)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Stress, anxiety, or fear in pregnancy"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Postpartum overwhelm or distress after birth"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Distressing memories"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "mother",
+    "adult"
+   ]
+  },
+  {
+   "id": "emotional-freedom-technique-eft",
+   "name": "Emotional Freedom Technique (EFT)",
+   "definition": "Often called tapping: tapping on acupressure points while focusing on a problem or feeling, to reduce emotional distress.",
+   "type": "Energetic",
+   "who": "Adult, pregnant or postpartum mother, older child",
+   "addresses": "Stress, fear, the emotional charge of memories, fear of birth",
+   "plain": "Tapping lightly on points on the face and body while naming a feeling, to calm it.",
+   "practitioner": "Self-use is common. For trauma, a trained EFT practitioner.",
+   "selfHelp": "Yes: basic tapping",
+   "find": "Not verified. Look for an accredited EFT practitioner.",
+   "myReferrals": "",
+   "session": "Name the issue, rate its intensity, tap through the points while speaking, rate again",
+   "questions": "Why tap? Tapping while naming a feeling seems to help the body settle.",
+   "offer": "Here is a simple tapping practice for stress. A practitioner can help with bigger things.",
+   "careful": "Strong trauma needs a trained practitioner.",
+   "reachOut": "",
+   "evidence": "Some research",
+   "founder": "Gary Craig",
+   "origin": "Created by Gary Craig. The basis for Matrix Reimprinting.",
+   "source": "Required reading: King, Heal Your Birth Heal Your Life",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Fear of birth, stress"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Postpartum stress"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Old emotional charge"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "mother",
+    "adult"
+   ]
+  },
+  {
+   "id": "matrix-birth-reimprinting",
+   "name": "Matrix Birth ReImprinting",
+   "definition": "A protocol that combines EFT tapping with imagery to revisit one's own conception, womb, or birth experience, or one's experience of giving birth, and reimprint it with a more supportive version.",
+   "type": "Energetic",
+   "who": "Adult (own birth), mother (her birth experience), parent with child",
+   "addresses": "Imprints and beliefs from conception, pregnancy, and birth; a birth experience a mother wants to transform",
+   "plain": "Using tapping and imagination, a person revisits their birth or birthing experience and rewrites it with the support and bonding that was missing.",
+   "practitioner": "Trained Matrix Birth Reimprinting (Heal Your Birth) practitioner",
+   "selfHelp": "Some. The book offers self-help tools, but King advises a practitioner for significant trauma.",
+   "find": "magicalnewbeginnings.com | healyourbirthbook.com",
+   "myReferrals": "",
+   "session": "Tapping while in the memory, imagining tapping on the younger self, creating a new picture",
+   "questions": "Does this change what happened? No. It changes how the experience is held now.",
+   "offer": "Some mothers find it healing to revisit their birth with support and give it a new ending.",
+   "careful": "King cautions that significant trauma needs a practitioner. Based on a theory of a connecting energy field.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Sharon King; Karl Dawson (Matrix Reimprinting)",
+   "origin": "Built on Karl Dawson's Matrix Reimprinting and Gary Craig's EFT. Now called Heal Your Birth.",
+   "source": "Required reading: King, Heal Your Birth Heal Your Life",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Easing fears, or a previous birth, before this one"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "A mother healing her birth experience"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults rewriting their own birth"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "mother",
+    "family",
+    "adult"
+   ]
+  },
+  {
+   "id": "bodytalk",
+   "name": "BodyTalk",
+   "definition": "A consciousness-based energy approach that uses muscle feedback to find priorities and tapping to restore communication between the body's systems.",
+   "type": "Energetic",
+   "who": "Whole family: pregnant and postpartum person, newborn, other children",
+   "addresses": "Stress and the balance of body systems, early imprints",
+   "plain": "An energy-based approach that uses light tapping on the head and chest to help the body's systems communicate and rebalance.",
+   "practitioner": "Certified BodyTalk practitioner. The Cortices technique is taught to the public.",
+   "selfHelp": "Yes: Cortices tapping across the three brains (head, heart, gut)",
+   "find": "bodytalksystem.com",
+   "myReferrals": "",
+   "session": "The practitioner uses muscle feedback, then taps on the head and sternum. The client stays clothed.",
+   "questions": "Is it like acupuncture? It draws on energy medicine, but there are no needles.",
+   "offer": "Here is a short tapping practice some families use for calm.",
+   "careful": "Consciousness-based, with little scientific research. Present it as complementary.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "John Veltheim; Phyllis Klaus and Joann Fisher (module presenters)",
+   "origin": "Developed in the 1990s by John Veltheim, an Australian chiropractor and acupuncturist. International BodyTalk Association founded 2000.",
+   "source": "Video: How Prenatal and Perinatal Experiences Reverberate Throughout a Person's Life (Klaus and Fisher)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Stress in pregnancy"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Calm and balance after birth"
+    }
+   ],
+   "whoGroups": [
+    "newborn",
+    "child",
+    "mother",
+    "family"
+   ]
+  },
+  {
+   "id": "prenatal-bonding-ba",
+   "name": "Prenatal Bonding (BA)",
+   "definition": "A method of regular sessions from mid-pregnancy that supports bonding and two-way communication between mother and unborn baby. Also called Bonding Analysis (Bindungsanalyse).",
+   "type": "Relational",
+   "who": "Pregnant mother, prenate, partner",
+   "addresses": "Bonding and communication with the unborn baby; preparing for birth and postpartum",
+   "plain": "A guided series of sessions in pregnancy that helps the mother connect and communicate with her baby.",
+   "practitioner": "Certified Prenatal Bonding (BA) facilitator",
+   "selfHelp": "Talking to the baby, resting attention on the womb",
+   "find": "schroth-apv.com (training) | APPPAH Practitioner Directory",
+   "myReferrals": "",
+   "session": "Regular sessions with relaxation, as the mother turns her attention to the womb and baby",
+   "questions": "When can we start? Around the 20th week of pregnancy.",
+   "offer": "Some parents enjoy a guided practice for connecting with their baby before birth.",
+   "careful": "Outcome figures come from a retrospective study by practitioners who also teach the method.",
+   "reachOut": "",
+   "evidence": "Some research",
+   "founder": "Jeno Raffai and Gyorgy Hidas; Gerhard Schroth and Anne Goertz-Schroth",
+   "origin": "Developed in Hungary in the early 1990s (Bindungsanalyse)",
+   "source": "Video: Prenatal Bonding (BA): What, When, How, and Why (Barbara Decker)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Begins around week 20 and continues until birth"
+    },
+    {
+     "stage": "Birth",
+     "text": "Mother and baby come to birth already in relationship"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "The postpartum becomes a continuation of an established relationship"
+    }
+   ],
+   "whoGroups": [
+    "prenate",
+    "mother",
+    "partner"
+   ]
+  },
+  {
+   "id": "heartfulness-womb-cleaning",
+   "name": "Heartfulness womb cleaning",
+   "definition": "A Heartfulness meditation practice that uses relaxation, attention to the womb, and intention to clear impressions (samskaras) from the womb space.",
+   "type": "Contemplative",
+   "who": "Couples preparing to conceive, pregnant mother",
+   "addresses": "Clearing impressions from the womb space, calm, intention for conception",
+   "plain": "A guided meditation where the mother rests attention on her womb, lets go of what feels heavy, and sets an intention for her baby.",
+   "practitioner": "Self-practice. Heartfulness trainers guide programs.",
+   "selfHelp": "Yes",
+   "find": "heartfulness.org",
+   "myReferrals": "",
+   "session": "Relaxation, attention to the heart and womb, imagining heaviness leaving as smoke, an intention",
+   "questions": "Is it religious? It comes from a meditation tradition and can be done as a quiet practice.",
+   "offer": "Here is a meditation some mothers use to feel close to their womb and baby.",
+   "careful": "Spiritual framework. Offer it as a contemplative practice.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Heartfulness Institute",
+   "origin": "Heartfulness, a heart-centered meditation tradition",
+   "source": "Womb Cleaning slides and video (Heartfulness)",
+   "stages": [
+    {
+     "stage": "Preconception",
+     "text": "Divya Janani, a 12-week program for couples preparing to conceive"
+    },
+    {
+     "stage": "Pregnancy",
+     "text": "Relaxation and meditation in pregnancy"
+    }
+   ],
+   "whoGroups": [
+    "mother",
+    "partner"
+   ]
+  },
+  {
+   "id": "sound-music-and-voice",
+   "name": "Sound, music, and voice",
+   "definition": "The use of voice, singing, music, chanting, toning, and sound therapy to calm the nervous system and support bonding and health.",
+   "type": "Sound",
+   "who": "Fetus, newborn, preterm infant, mother, child",
+   "addresses": "The stress response, regulation, bonding, voice tones",
+   "plain": "Using the mother's voice, singing, lullabies, and gentle music to calm and connect with the baby.",
+   "practitioner": "Self-practice. A board-certified music therapist in the NICU. Sound healers.",
+   "selfHelp": "Yes: singing, talking, lullabies",
+   "find": "Not verified. Ask the hospital about music therapy.",
+   "myReferrals": "",
+   "session": "Mother sings or talks to the baby. Recordings of her voice may be used in the NICU.",
+   "questions": "Does it matter if I cannot sing? No. Newborns prefer their own mother's voice.",
+   "offer": "Your voice is familiar to your baby. Singing or talking can be calming for you both.",
+   "careful": "Claims about voice tones and health are practice-based.",
+   "reachOut": "",
+   "evidence": "Some research",
+   "founder": "Fred J. Schwartz, MD; Ani Williams",
+   "origin": "Schwartz: anesthesiologist and music therapist. Williams: harpist, singer, and sound healer.",
+   "source": "Articles: Music for Babies (Schwartz); Music for Infants and Children; Sound Healing (Williams)",
+   "stages": [
+    {
+     "stage": "Pregnancy",
+     "text": "Talking and singing to the baby"
+    },
+    {
+     "stage": "Birth",
+     "text": "Calming music in labor"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Lullabies, the mother's voice, NICU music"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Voice tone work (Williams)"
+    }
+   ],
+   "whoGroups": [
+    "prenate",
+    "newborn",
+    "child",
+    "mother"
+   ]
+  },
+  {
+   "id": "bonding-repair-therapy-madrid",
+   "name": "Bonding Repair Therapy (Madrid)",
+   "definition": "A clinical hypnosis method that helps a mother repair an early break in the bond with her child. Madrid studied it in relation to childhood asthma.",
+   "type": "Hypnotic",
+   "who": "Mother and child of any age",
+   "addresses": "An interrupted mother-child bond, such as separation at birth; links Madrid found with childhood asthma",
+   "plain": "A therapy that uses clinical hypnosis to help heal the bond between a mother and her child.",
+   "practitioner": "Licensed therapist trained in clinical hypnosis",
+   "selfHelp": "Limited",
+   "find": "mibsonoma.weebly.com (from module notes)",
+   "myReferrals": "",
+   "session": "The mother works in hypnosis with the bond to her child (see the Madrid article for details)",
+   "questions": "Is it too late to repair a bond? Madrid's work suggests repair is possible later.",
+   "offer": "If a separation early on still feels unresolved, there is therapy that focuses on repairing that bond.",
+   "careful": "The asthma link is Madrid's research. It does not replace asthma care.",
+   "reachOut": "",
+   "evidence": "Some research",
+   "founder": "Antonio (Tony) Madrid, PhD",
+   "origin": "Clinical hypnosis, EMDR, and maternal-infant bonding work",
+   "source": "Video and article: Bonding Repair Therapy and Asthma (Madrid)",
+   "stages": [
+    {
+     "stage": "Birth",
+     "text": "Separation at birth"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Separation or a NICU stay"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "A child with asthma or bonding difficulty"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "mother"
+   ]
+  },
+  {
+   "id": "somatic-birth-trauma-tools-brook",
+   "name": "Somatic birth trauma tools (Brook)",
+   "definition": "Somatic psychotherapy, drawing on Body-Mind Centering, that uses body awareness and movement to resolve birth trauma.",
+   "type": "Somatic",
+   "who": "Parents, children, adults",
+   "addresses": "Birth trauma held in the body",
+   "plain": "Body-based awareness and movement that helps the body complete and release birth experiences.",
+   "practitioner": "Somatic psychotherapist",
+   "selfHelp": "Some somatic practices",
+   "find": "anniebrook.com",
+   "myReferrals": "",
+   "session": "Somatic exercises and guided awareness",
+   "questions": "What does somatic mean? Working through the body, not only through talk.",
+   "offer": "Some people heal birth experiences through gentle body-based work.",
+   "careful": "Present as complementary to medical and mental health care.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Annie Brook, PhD",
+   "origin": "Founder of the Brook Institute, with a background in Body-Mind Centering",
+   "source": "Video: Helping Parents, Children, and Adults Heal from Birth Trauma (Brook)",
+   "stages": [
+    {
+     "stage": "Early childhood",
+     "text": "Children who seem to carry birth patterns"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults healing their own birth"
+    }
+   ],
+   "whoGroups": [
+    "child",
+    "family",
+    "adult"
+   ]
+  },
+  {
+   "id": "integrative-ppn-family-approach-mccarty",
+   "name": "Integrative PPN family approach (McCarty)",
+   "definition": "An integrative prenatal and perinatal approach that includes the baby directly as a conscious participant, uses energy psychology tools, and supports wholeness and human potential from the beginning of life.",
+   "type": "Relational",
+   "who": "Baby, parents, whole family",
+   "addresses": "Healing early trauma and unmet needs, and supporting optimal development, wholeness, and human potential",
+   "plain": "Treating the baby as a full participant, and helping families speak honestly and lovingly about what happened in the womb and at birth.",
+   "practitioner": "Practitioners trained in prenatal and perinatal psychology",
+   "selfHelp": "Yes: telling a child the genuine, caring story of their birth",
+   "find": "wondrousbeginnings.com (from module notes) | APPPAH Practitioner Directory",
+   "myReferrals": "",
+   "session": "Family sessions that include the baby directly, using energy psychology tools",
+   "questions": "Should I tell my child about a hard birth? McCarty describes healing in telling the genuine story, with care and at the child's level.",
+   "offer": "Many parents find it healing to tell their child the real story of their beginning, gently.",
+   "careful": "Grounded in a view of babies as conscious beings. Much of it rests on clinical experience.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Wendy Anne McCarty, PhD, RN",
+   "origin": "Nurse and psychologist; founding chair and core faculty at Santa Barbara Graduate Institute; author of Welcoming Consciousness",
+   "source": "Interview with Dr. Wendy Anne McCarty (Kate White)",
+   "stages": [
+    {
+     "stage": "Preconception",
+     "text": "Conscious conceiving"
+    },
+    {
+     "stage": "Pregnancy",
+     "text": "Conscious pregnancy and speaking with the baby"
+    },
+    {
+     "stage": "Fourth trimester",
+     "text": "Speaking to the baby about what is happening"
+    },
+    {
+     "stage": "Early childhood",
+     "text": "Telling the child the genuine story of their birth"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Adults exploring their own earliest experiences"
+    }
+   ],
+   "whoGroups": [
+    "baby",
+    "family"
+   ]
+  },
+  {
+   "id": "womb-wisdom-practices-ketscher",
+   "name": "Womb wisdom practices (Ketscher)",
+   "definition": "Prenatal bonding and womb practices that blend Western somatic and prenatal and perinatal psychology with Eastern spiritual healing traditions, offered to the whole family.",
+   "type": "Contemplative",
+   "who": "Pregnant mother, babies, whole family",
+   "addresses": "Healing past trauma at any age, soul-to-soul connection in the family, helping babies stay connected to themselves",
+   "plain": "Practices that nurture the womb as the baby's first home and deepen the connection between mother, baby, and family.",
+   "practitioner": "Practitioner trained in somatic and prenatal psychology",
+   "selfHelp": "Some practices the family can do together",
+   "find": "Not verified",
+   "myReferrals": "",
+   "session": "Wisdom practices and somatic work, in person or online",
+   "questions": "Is this religious? It draws on spiritual traditions and can be offered as a contemplative practice.",
+   "offer": "Some families enjoy practices that honor the womb as the baby's first home.",
+   "careful": "The claim that these practices are over 7,000 years old is the presenter's. Offer as contemplative and spiritual practice.",
+   "reachOut": "",
+   "evidence": "Practice-based",
+   "founder": "Nina Ketscher, MA",
+   "origin": "Clinical psychology with a somatic specialty; PPNE graduate and mentor; studied at Sri Kaleshwar's Soul University in India",
+   "source": "Video: The Mother's Womb: Wisdom for Prenatal Bonding (Ketscher)",
+   "stages": [
+    {
+     "stage": "Preconception",
+     "text": "Preparing the womb and family"
+    },
+    {
+     "stage": "Pregnancy",
+     "text": "Nurturing the womb environment and bonding"
+    },
+    {
+     "stage": "Adulthood",
+     "text": "Healing past traumas through family connection"
+    }
+   ],
+   "whoGroups": [
+    "baby",
+    "mother",
+    "family"
+   ]
+  }
+ ]
+}
